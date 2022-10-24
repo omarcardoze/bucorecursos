@@ -8,12 +8,18 @@
         "plugin:react/recommended",
         "standard-with-typescript"
     ],
-    "overrides": [
-    ],
+    "overrides": [],
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module",
-        "project": ["./tsconfig.json"]
+        "project": [
+            "./tsconfig.json"
+        ]
     },
     "plugins": [
         "react"
