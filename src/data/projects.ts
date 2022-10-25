@@ -3,7 +3,7 @@ import { Project } from '../types'
 export const PROJECTS: Project[] = [
   {
     title: 'Ejemplo',
-    url: 'https://github.com/x/x',
+    url: 'https://github.com',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius consequuntur esse accusamus odit soluta earum illum velit minima ipsum debitis?.',
     languaje: 'Javascript',
     tags: 'Example-tag',
@@ -11,7 +11,7 @@ export const PROJECTS: Project[] = [
   },
   {
     title: 'Ejemplo',
-    url: 'https://github.com/x/x',
+    url: 'https://github.com',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius consequuntur esse accusamus odit soluta earum illum velit minima ipsum debitis?.',
     languaje: 'Typescript',
     tags: 'Example-tag',
@@ -19,7 +19,7 @@ export const PROJECTS: Project[] = [
   },
   {
     title: 'Ejemplo',
-    url: 'https://github.com/x/x',
+    url: 'https://github.com',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius consequuntur esse accusamus odit soluta earum illum velit minima ipsum debitis?.',
     languaje: 'Javascript',
     tags: 'Example-tag',
@@ -27,7 +27,7 @@ export const PROJECTS: Project[] = [
   },
   {
     title: 'Ejemplo',
-    url: 'https://github.com/x/x',
+    url: 'https://github.com',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius consequuntur esse accusamus odit soluta earum illum velit minima ipsum debitis?.',
     languaje: 'Typescript',
     tags: 'Example-tag',
@@ -35,7 +35,7 @@ export const PROJECTS: Project[] = [
   },
   {
     title: 'Ejemplo',
-    url: 'https://github.com/x/x',
+    url: 'https://github.com',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius consequuntur esse accusamus odit soluta earum illum velit minima ipsum debitis?.',
     languaje: 'Python',
     tags: 'Example-tag',
@@ -43,7 +43,7 @@ export const PROJECTS: Project[] = [
   },
   {
     title: 'Ejemplo',
-    url: 'https://github.com/x/x',
+    url: 'https://github.com',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius consequuntur esse accusamus odit soluta earum illum velit minima ipsum debitis?.',
     languaje: 'Javascript',
     tags: 'Example-tag',
