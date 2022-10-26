@@ -49,6 +49,6 @@ Siempre puedes entrar a la seccion de **Issues** y notificar o buscar si hay alg
 Si te gusta la idea comparte y unete a nuestra comunidad, Apoya el proyecto con una ⭐.
 
 - https://t.me/opensourcees
-- https://docs.google.com/document/d/1qjoqOweCeZ90ap0vDJBtYumdqtvL9NGmKuvNlEe6rLg/edit?usp=drivesdk
+
 
 
