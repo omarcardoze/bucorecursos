@@ -1,13 +1,10 @@
-import React, { useState, useRef, useEffect } from 'react'
-import type { GetStaticProps } from 'next'
+/* eslint-disable react/react-in-jsx-scope */
 import Head from 'next/head'
-
 import api from '../api'
+import ProjectList from '../components/ProjectList'
 import { Header } from '../components/Header'
 import { Project } from '../types'
-import RepoIcon from '../components/Icons/RepoIcon'
-import { LanguajeByColor } from '../utils/LanguajeByColor'
-
+import type { GetStaticProps } from 'next'
 interface Props {
   projects: Project[]
 }
@@ -22,22 +19,6 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 }
 
 const Home = ({ projects }: Props) => {
-  const [limit, setLimit] = useState<number>(10)
-
-  const finalPage = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    const obsever = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting) {
-        setLimit(limit => limit + 10)
-      }
-    })
-
-    return () => {
-      obsever.disconnect()
-    }
-  }, [finalPage])
-
   return (
     <main className='w-auto flex flex-col items-center bg-slate-800'>
       <Head>
@@ -47,24 +28,7 @@ const Home = ({ projects }: Props) => {
       </Head>
 
       <Header />
-
-      <section className='w-auto container grid grid-cols-400 flex-1 my-20 text-slate-50'>
-        {projects.slice(0, limit).map(project => (
-          <article className='flex flex-col p-3 bg' key={project.url}>
-            <div className='flex flex-col border rounded px-5 py-4 bg-slate-200 text-black'>
-              <a href={project.url} className='text-blue-800  hover:underline flex flex-row items-center gap-2'>
-                <RepoIcon />
-                {project.title}
-              </a>
-              <p className='mt-4'>{project.description}</p>
-
-              <p className='mt-4'>{LanguajeByColor(project.languaje)} {project.languaje}</p>
-            </div>
-          </article>
-        )) }
-
-        <div ref={finalPage}></div>
-      </section>
+      <ProjectList projects={projects}/>
     </main>
   )
 }
