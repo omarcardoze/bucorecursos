@@ -48,7 +48,7 @@ Siempre puedes entrar a la sección de **Issues** y notificar o buscar si hay al
 
 Si te gusta la idea comparte y únete a nuestra comunidad, Apoya el proyecto con una ⭐.
 
-- https://t.me/opensourcees
+- https://discord.gg/rXsh9Fwz
 
 
 
