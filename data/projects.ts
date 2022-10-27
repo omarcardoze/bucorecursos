@@ -10,28 +10,28 @@ export const PROJECTS: Project[] = [
     category: 'frontend'
   },
   {
-    title: 'Ejemplo',
-    url: 'https://github.com',
-    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius consequuntur esse accusamus odit soluta earum illum velit minima ipsum debitis?.',
+    title: 'web-base-nextjs',
+    url: 'https://github.com/rlarquing/web-base-nextjs',
+    description: 'Web base para proyectos con nextjs.',
     languaje: 'Typescript',
     tags: 'Example-tag',
     category: 'frontend'
   },
   {
-    title: 'Ejemplo',
-    url: 'https://github.com',
-    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius consequuntur esse accusamus odit soluta earum illum velit minima ipsum debitis?.',
+    title: 'nestool-cli',
+    url: 'https://github.com/rlarquing/nestool-cli',
+    description: 'CLI para trabajar con el api-base-nestjs por consola.',
     languaje: 'Javascript',
     tags: 'Example-tag',
-    category: 'frontend'
+    category: 'CLI'
   },
   {
-    title: 'Ejemplo',
-    url: 'https://github.com',
-    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius consequuntur esse accusamus odit soluta earum illum velit minima ipsum debitis?.',
+    title: 'api-base-nestjs',
+    url: 'https://github.com/rlarquing/api-base-nestjs',
+    description: 'Api base para realizar proyectos con nestjs .',
     languaje: 'Typescript',
     tags: 'Example-tag',
-    category: 'frontend'
+    category: 'Backend'
   },
   {
     title: 'Ejemplo',
