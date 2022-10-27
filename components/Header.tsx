@@ -1,4 +1,3 @@
-/* eslint-disable react/react-in-jsx-scope */
 import Navbar from './Navbar'
 
 export const Header = () => {

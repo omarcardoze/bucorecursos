@@ -1,4 +1,3 @@
-/* eslint-disable react/react-in-jsx-scope */
 import api from '../api'
 import ProjectList from '../components/ProjectList'
 import { Header } from '../components/Header'

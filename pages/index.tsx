@@ -1,4 +1,3 @@
-import React from 'react'
 import { HeadPage } from '../components/HeadPage'
 import Navbar from '../components/Navbar'
 import Link from 'next/link'
