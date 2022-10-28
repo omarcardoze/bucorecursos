@@ -1,11 +1,13 @@
+import Link from 'next/link'
+import { Footer } from '../components/Footer'
 import { HeadPage } from '../components/HeadPage'
 import Navbar from '../components/Navbar'
-import Link from 'next/link'
 
 const Home = () => {
   return (
-    <main className='w-auto h-screen flex flex-col items-center bg-orange-600 justify-center'>
-      <HeadPage />
+    <main>
+     <section className='w-auto h-screen flex flex-col items-center bg-orange-600 justify-center'>
+       <HeadPage />
      <Navbar />
 
      {/* SVG generado en https://getwaves.io/ */}
@@ -14,11 +16,42 @@ const Home = () => {
       </path>
     </svg>
 
-     <h1 className='text-white text-3xl text-center'>Únete y comparte tus proyectos</h1>
-     <Link href="/projects">
-        <a className='text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 my-5'>Explorar Proyectos</a>
-     </Link>
-    </main>
+     <h1 className='text-white text-8xl text-center'>Dir Repo</h1>
+     <p className='text-white text-center text-2xl p-5'>Comunidad en español que busca compartir y colaborar en proyectos.</p>
+
+    <div className='mt-8'>
+       <a href='https://discord.gg/rXsh9Fwz' className='text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base px-6 py-3.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mr-4 cursor-pointer'>
+        Únete a Discord
+       </a>
+      <a href='https://t.me/opensourcees' className='text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base px-6 py-3.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 cursor-pointer'>
+        Únete a Telegram
+      </a>
+    </div>
+     </section>
+
+    <section className='w-full h-96 flex justify-center bg-cyan-900'>
+     <div className='container w-full h-auto flex justify-center items-center'>
+       <p className='text-white md:text-4xl text-xl md:px-10 text-center'>El software Open Source es importante para todos, no solo para los programadores, porque permite que muchas más personas logren innovaciones, en comparación con un modelo de código cerrado. El desarrollado es de forma abierta y colaborativa.</p>
+     </div>
+    </section>
+
+    <section className='w-full h-[32rem] bg-slate-400 flex justify-center items-center'>
+      <div className='w-full h-auto container grid grid-cols-400 justify-center items-center gap-5'>
+        <Link href='/projects'>
+          <article className='w-80 h-80 py-10 grid place-content-center cursor-pointer bg-sky-800'>
+            <h2 className='text-white text-4xl text-center'>Proyectos de la comunidad</h2>
+        </article>
+        </Link>
+
+        <Link href='/'>
+          <article className='lg:w-80 lg:h-80 w-36 h-36  grid place-content-center cursor-pointer bg-sky-800'>
+            <h2 className='text-white text-4xl text-center'>Recursos Gratis</h2>
+          </article>
+        </Link>
+      </div>
+    </section>
+    <Footer />
+  </main>
   )
 }
 

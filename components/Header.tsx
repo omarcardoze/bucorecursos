@@ -6,7 +6,7 @@ export const Header = () => {
     <header className='w-full h-[34rem] bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-center flex-col relative'>
      <Navbar />
         <div className='container z-50'>
-          <h1 className='text-white text-6xl text-center'>Directorio de repositorios</h1>
+          <h1 className='text-white text-6xl text-center'>Proyectos de la comunidad</h1>
         </div>
 
      {/* SVG generado en https://getwaves.io/ */}
