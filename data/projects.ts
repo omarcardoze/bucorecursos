@@ -7,7 +7,7 @@ export const PROJECTS: Project[] = [
     description: 'Web base para proyectos con nextjs.',
     languaje: 'Typescript',
     tags: 'Example-tag',
-    category: 'frontend'
+    category: 'frontend',
   },
   {
     title: 'nestool-cli',
@@ -15,7 +15,7 @@ export const PROJECTS: Project[] = [
     description: 'CLI para trabajar con el api-base-nestjs por consola.',
     languaje: 'Javascript',
     tags: 'Example-tag',
-    category: 'CLI'
+    category: 'CLI',
   },
   {
     title: 'api-base-nestjs',
@@ -23,6 +23,6 @@ export const PROJECTS: Project[] = [
     description: 'Api base para realizar proyectos con nestjs .',
     languaje: 'Typescript',
     tags: 'Example-tag',
-    category: 'Backend'
-  }
+    category: 'Backend',
+  },
 ]
