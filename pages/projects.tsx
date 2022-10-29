@@ -1,9 +1,10 @@
 import api from '../api'
 import ProjectList from '../components/ProjectList'
+import HeadPage from '../components/HeadPage'
 import { Header } from '../components/Header'
 import { Project } from '../types'
 import type { GetStaticProps } from 'next'
-import { HeadPage } from '../components/HeadPage'
+
 interface Props {
   projects: Project[]
 }

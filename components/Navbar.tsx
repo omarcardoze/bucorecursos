@@ -1,7 +1,6 @@
 import Link from 'next/link'
-// 'https://github.com/OmarCardoze/Dir-repo '
 
-export default function Navbar () {
+export default function Navbar() {
   return (
     <nav className='w-full border-b dark:border-gray-700'>
       <div className='container mx-auto w-full'>
