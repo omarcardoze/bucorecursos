@@ -1,22 +1,27 @@
 import Link from 'next/link'
 
-export default function Navbar () {
+export default function Navbar() {
   return (
-    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded bg-transparent absolute top-0 w-full z-50">
-    <div className="container flex flex-wrap justify-between items-center mx-auto">
-      <Link href='/'>
-          <a className="flex items-center">
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">DIRREPO</span>
-        </a>
-      </Link>
-        <div className="md:w-auto">
-        <ul>
-            <li>
-            <a href="https://github.com/OmarCardoze/Dir-repo " target="_blank" rel='noreferrer' className="block py-2 pr-4 pl-3 text-white text-xl">☆ GitHub</a>
-            </li>
+    <nav className='w-full border-b dark:border-gray-700'>
+      <div className='container mx-auto w-full'>
+        <ul className='w-full flex text-3xl md:text-base items-center py-7 md:flex flex-col md:flex-row justify-center fixed md:relative top-0 bottom-0 left-0 right-0 bg-white md:bg-transparent z-20'>
+          <li className='text-black hover:text-gray-600 dark:text-white dark:hover:text-gray-400  cursor-pointer text-base lg:text-lg pt-10 md:pt-0'>
+            <Link
+              href='https://github.com/OmarCardoze/Dir-repo'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Github
+            </Link>
+          </li>
+          <li className='text-black hover:text-gray-600 dark:text-white dark:hover:text-gray-400 cursor-pointer text-base lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10'>
+            <Link href='/projects'>Proyectos</Link>
+          </li>
+          <li className='text-black hover:text-gray-600 dark:text-white dark:hover:text-gray-400  cursor-pointer text-base lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10'>
+            <Link href='/resources'>Recursos</Link>
+          </li>
         </ul>
-        </div>
-    </div>
+      </div>
     </nav>
   )
 }

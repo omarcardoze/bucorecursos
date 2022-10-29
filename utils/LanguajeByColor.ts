@@ -1,6 +1,6 @@
 const LANGUAGES_COLOR: { [key: string]: string } = {
   javascript: '🟡',
-  typescript: '🔵'
+  typescript: '🔵',
 }
 
 export const LanguajeByColor = (languaje: string) => {

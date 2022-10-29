@@ -5,8 +5,8 @@ const api = {
   projects: {
     list: async (): Promise<Project[]> => {
       return PROJECTS
-    }
-  }
+    },
+  },
 }
 
 export default api
