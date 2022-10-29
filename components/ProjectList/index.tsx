@@ -1,9 +1,7 @@
-/* eslint-disable react/react-in-jsx-scope */
 import useLimit from '../../hooks/useLimit'
 import ProjectItem from './ProjectItem'
 import { Project } from '../../types'
 import { useRef } from 'react'
-
 interface Props {
   projects: Project[]
 }

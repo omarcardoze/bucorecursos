@@ -1,10 +1,14 @@
 import { FaTelegramPlane, FaDiscord } from 'react-icons/fa'
 
-export default function Hero () {
+export default function Hero() {
   return (
     <div className='bg-gray-100 dark:bg-gray-900'>
       <div className='container mx-auto flex flex-col items-center py-12 sm:py-24'>
-        <div className='w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col mb-5 sm:mb-10' data-aos="fade-up" data-aos-duration="1000">
+        <div
+          className='w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col mb-5 sm:mb-10'
+          data-aos='fade-up'
+          data-aos-duration='1000'
+        >
           <h1 className='font-black bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center leading-7 md:leading-10'>
             Dir Repo
           </h1>
@@ -14,7 +18,12 @@ export default function Hero () {
           </p>
         </div>
 
-        <div className='flex justify-center items-center' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+        <div
+          className='flex justify-center items-center'
+          data-aos='fade-up'
+          data-aos-duration='1000'
+          data-aos-delay='300'
+        >
           <a
             target='_blank'
             href='https://discord.gg/rXsh9Fwz'

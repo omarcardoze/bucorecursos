@@ -4,6 +4,7 @@
     "es2021": true
   },
   "extends": [
+    "prettier",
     "plugin:@next/next/recommended",
     "plugin:react/recommended",
     "standard-with-typescript",
@@ -21,7 +22,7 @@
     "sourceType": "module",
     "project": ["./tsconfig.json"]
   },
-  "plugins": ["react", "import", "react-hooks", "jsx-a11y"],
+  "plugins": ["prettier", "react", "import", "react-hooks", "jsx-a11y"],
 
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
@@ -30,6 +31,8 @@
     "react/react-in-jsx-scope": "off",
     "no-unused-vars": "warn",
     "no-undef": "error",
+    "@typescript-eslint/space-before-function-paren": "off",
+    "@typescript-eslint/comma-dangle": "off",
     "no-use-before-define": "warn",
     "react-hooks/rules-of-hooks": "warn",
     "react-hooks/exhaustive-deps": "warn",

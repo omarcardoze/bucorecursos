@@ -7,10 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "npx prettier --write . --config ./.prettierrc"
+    "fix": "npx prettier --write . --config ./.prettierrc"
   },
   "dependencies": {
-    "@types/aos": "^3.0.4",
     "aos": "^3.0.0-beta.6",
     "inter-ui": "^3.19.3",
     "next": "12.3.1",
@@ -19,7 +18,10 @@
     "react-icons": "^4.6.0"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "@next/eslint-plugin-next": "^12.3.1",
+    "@types/aos": "^3.0.4",
     "@types/node": "18.11.3",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",

@@ -1,4 +1,3 @@
-/* eslint-disable react/react-in-jsx-scope */
 import RepoIcon from '../Icons/RepoIcon'
 import { LanguajeByColor } from '../../utils/LanguajeByColor'
 import { Project } from '../../types'
@@ -7,8 +6,8 @@ interface IProjectItemProps {
   project: Project
 }
 
-export default function ProjectItem ({
-  project: { url, title, languaje, description }
+export default function ProjectItem({
+  project: { url, title, languaje, description },
 }: IProjectItemProps) {
   return (
     <article className='flex flex-col p-3 bg'>
