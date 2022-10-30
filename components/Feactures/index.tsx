@@ -2,7 +2,7 @@ import FeactureCard from './FeactureCard'
 
 export default function Feactures() {
   return (
-    <div className='grid place-content-center md:grid-cols-3 grid-cols-1 gap-4 max-w-xl sm:mx-auto lg:max-w-5xl mb-5 py-8'>
+    <div className='grid md:grid-cols-3 grid-cols-1 gap-4 max-w-xl mx-auto lg:max-w-5xl mb-5 py-8'>
       <FeactureCard
         title='Proyectos de la comunidad'
         content='Colabora y crea proyectos junto con la comunidad, crea tu proyecto e invita
