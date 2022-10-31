@@ -45,7 +45,7 @@ export default function Hero() {
               focus:ring-offset-2
               duration-150 ease-in-out
               focus:bg-sky-600
-              bg-sky-500 transition
+              bg-sky-700 transition
               hover:border-sky-500 lg:text-xl lg:font-bold
               hover:bg-sky-400
               rounded border
