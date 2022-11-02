@@ -4,8 +4,8 @@ const nextConfig = {
   swcMinify: true,
   i18n: {
     locales: ['es'],
-    defaultLocale: 'es'
-  }
+    defaultLocale: 'es',
+  },
 }
 
 module.exports = nextConfig
