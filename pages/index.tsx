@@ -3,6 +3,7 @@ import HeadPage from '../components/HeadPage'
 import Hero from '../components/Hero'
 import OpenSource from '../components/OpenSource'
 import Feactures from '../components/Feactures'
+import { Contributors } from '../components/Contributors'
 // import { Footer } from '../components/Footer'
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
         <Hero />
         <OpenSource />
         <Feactures />
+        <Contributors />
       </main>
     </>
   )

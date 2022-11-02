@@ -12,10 +12,10 @@ export default function Hero() {
           <h1 className='font-black bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-transparent text-7xl sm:text-9xl text-center'>
             Dir Repo
           </h1>
-                                <p className='mt-5 sm:mt-10 lg:w-10/12 text-gray-500 dark:text-gray-300 font-normal text-center text-sm sm:text-lg'>
-                                  Comunidad en español que tiene como objetivo buscar, compartir y
-                                  colaborar en proyectos <span className='font-bold'>open source</span>.
-                                </p>
+          <p className='mt-5 sm:mt-10 lg:w-10/12 text-gray-500 dark:text-gray-300 font-normal text-center text-sm sm:text-lg'>
+            Comunidad en español que tiene como objetivo buscar, compartir y
+            colaborar en proyectos <span className='font-bold'>open source</span>.
+          </p>
         </div>
 
         <div
