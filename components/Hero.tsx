@@ -2,7 +2,7 @@ import { FaTelegramPlane, FaDiscord } from 'react-icons/fa'
 
 export default function Hero() {
   return (
-    <div className='bg-gray-100 dark:bg-gray-900'>
+    <div className='h-screen grid place-content-center bg-gray-100 dark:bg-gray-900'>
       <div className='container mx-auto flex flex-col items-center py-12 sm:py-24'>
         <div
           className='w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col mb-5 sm:mb-10'
