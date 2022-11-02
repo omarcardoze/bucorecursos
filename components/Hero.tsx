@@ -9,7 +9,7 @@ export default function Hero() {
           data-aos='fade-up'
           data-aos-duration='1000'
         >
-          <h1 className='font-black bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center leading-7 md:leading-10'>
+          <h1 className='font-black bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-transparent text-7xl sm:text-9xl text-center'>
             Dir Repo
           </h1>
           <p className='mt-5 sm:mt-10 lg:w-10/12 text-gray-500 dark:text-gray-300 font-normal text-center text-sm sm:text-lg'>
