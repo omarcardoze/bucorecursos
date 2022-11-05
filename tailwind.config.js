@@ -6,12 +6,12 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateColumns: {
-        400: 'repeat(auto-fill, minmax(400px, 1fr))',
+        400: 'repeat(auto-fill, minmax(400px, 1fr))'
       },
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-      },
-    },
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans]
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 }

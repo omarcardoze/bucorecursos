@@ -22,9 +22,8 @@ export default function Feactures() {
         data-aos-delay='400'
       />
       <FeactureCard
-        title='Recursos Gratis'
-        content='  Encuentra información útil, datos, herramientas u librerías gratis para
-          programar.'
+        title='Temática Pendiente'
+        content=''
         href='/resources'
         data-aos='fade-up'
         data-aos-duration='600'
