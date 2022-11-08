@@ -6,6 +6,9 @@ const nextConfig = {
     locales: ['es'],
     defaultLocale: 'es',
   },
+  images: {
+    domains: ['img.shields.io'],
+  },
 }
 
 module.exports = nextConfig
