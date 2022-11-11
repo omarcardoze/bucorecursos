@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 export default function Navbar() {
   return (
@@ -14,9 +13,7 @@ export default function Navbar() {
           </li>
           <li>
             <a href='https://github.com/OmarCardoze/Dir-repo'>
-              <Image
-                width={82}
-                height={20}
+              <img
                 alt='GitHub Repo stars'
                 src='https://img.shields.io/github/stars/OmarCardoze/Dir-repo?style=social'
               />
