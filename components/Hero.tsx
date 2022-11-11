@@ -7,7 +7,7 @@ export default function Hero() {
         <div
           className='w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col mb-5 sm:mb-10'
           data-aos='fade-up'
-          data-aos-duration='1000'
+          data-aos-duration='500'
         >
           <h1 className='font-black bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-transparent text-7xl sm:text-9xl text-center'>
             Dir Repo
@@ -20,7 +20,7 @@ export default function Hero() {
 
         <div
           className='flex justify-center items-center'
-          data-aos='fade-up'
+          data-aos='fade'
           data-aos-duration='1000'
           data-aos-delay='300'
         >
