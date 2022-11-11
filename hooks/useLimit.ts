@@ -1,15 +1,17 @@
 import { useState, useEffect } from 'react'
 
-export default function useLimit() {
-  const [limit, setLimit] = useState<number>(10)
+export default function useLimit(targetRef: any) {
+  const [limit, setLimit] = useState<number>(5)
   useEffect(() => {
-    const obsever = new IntersectionObserver(([target]) => {
+    const observer = new IntersectionObserver(([target]) => {
       if (target.isIntersecting) {
-        setLimit((limit) => limit + 10)
+        setLimit((limit) => limit + 5)
       }
     })
+    observer.observe(targetRef.current)
 
-    return () => obsever.disconnect()
-  }, [])
+    return () => observer.disconnect()
+  }, [targetRef])
+
   return limit
 }
