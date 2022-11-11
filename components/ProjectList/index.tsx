@@ -13,7 +13,7 @@ export default function ProjectList({ projects }: Props) {
   return (
     <section className='w-auto container grid grid-cols-400 flex-1 my-20 text-slate-50'>
       {projects.slice(0, limit).map((p) => (
-        <ProjectItem project={p} key={p.url} />
+        <ProjectItem project={p} key={p.id} />
       ))}
       <div ref={targetRef}></div>
     </section>
