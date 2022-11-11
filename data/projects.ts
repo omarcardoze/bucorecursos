@@ -28,4 +28,13 @@ export const PROJECTS: Project[] = [
     tags: 'Example-tag',
     category: 'Backend',
   },
+   {
+    id: 4,
+    title: 'React-Libs',
+    url: 'https://github.com/Tono2007/React-Libs',
+    description: 'Mejora tu nivel con React; Encuentra informacion util, datos, herramientas, bibliotecas, consejos, guias y mas.',
+    languaje: 'Javascript',
+    tags: 'React',
+    category: 'frontend',
+  },
 ]
