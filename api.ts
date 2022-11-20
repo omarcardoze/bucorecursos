@@ -1,10 +1,10 @@
-import { PROJECTS } from './data/projects'
-import { Project } from './types'
+import { RESOURCES } from './data/resources'
+import { Resources } from './types'
 
 const api = {
-  projects: {
-    list: async (): Promise<Project[]> => {
-      return PROJECTS
+  resources: {
+    list: async (): Promise<Resources[]> => {
+      return RESOURCES
     },
   },
 }

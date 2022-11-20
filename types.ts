@@ -1,9 +1,6 @@
-export interface Project {
+export interface Resources {
   id: number
   title: string
-  url: string
   description: string
-  languaje: string
-  tags: string
-  category: string
+  url: string
 }

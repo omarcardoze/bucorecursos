@@ -1,24 +1,29 @@
-import Navbar from '../components/Navbar'
-import HeadPage from '../components/HeadPage'
-import Hero from '../components/Hero'
-import OpenSource from '../components/OpenSource'
-import Feactures from '../components/Feactures'
-import { Contributors } from '../components/Contributors'
-// import { Footer } from '../components/Footer'
+import api from '../api'
+import type { GetStaticProps } from 'next'
+import { Resources } from '../types'
+import { Header } from '../components/Header'
+import ResourcesList from '../components/ResourcesList'
 
-const Home = () => {
+interface Props {
+  resources: Resources[]
+}
+
+export const getStaticProps: GetStaticProps<Props> = async () => {
+  const resources = await api.resources.list()
+  return {
+    props: {
+      resources,
+    },
+  }
+}
+
+const ResourcesPage = ({ resources }: Props) => {
   return (
-    <>
-      <HeadPage />
-      <main>
-        <Navbar />
-        <Hero />
-        <OpenSource />
-        <Feactures />
-        <Contributors />
-      </main>
-    </>
+    <div className='h-auto w-auto flex flex-col items-center bg-white'>
+      <Header title='Recursos gratis' />
+      <ResourcesList resources={resources} />
+    </div>
   )
 }
 
-export default Home
+export default ResourcesPage
