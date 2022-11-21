@@ -1,5 +1,3 @@
-import RepoIcon from '../Icons/RepoIcon'
-// import { LanguajeByColor } from '../../utils/LanguajeByColor'
 import { Resources } from '../../types'
 
 interface IResourcestemProps {
@@ -11,16 +9,15 @@ export default function ResourcesItem({
 }: IResourcestemProps) {
   return (
     <article className='flex flex-col p-3 bg'>
-      <div className='flex flex-col border rounded px-5 py-4 bg-slate-200 text-black'>
-        <a
-          href={url}
-          className='text-blue-800  hover:underline flex flex-row items-center gap-2'
-        >
-          <RepoIcon />
+      <a
+        href='svg.com'
+        className='block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'
+      >
+        <h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
           {title}
-        </a>
-        <p className='mt-4'>{description}</p>
-      </div>
+        </h5>
+        <p className='font-normal text-gray-700 dark:text-gray-400'>{description}</p>
+      </a>
     </article>
   )
 }

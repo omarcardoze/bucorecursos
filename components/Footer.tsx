@@ -1,8 +1,13 @@
 export const Footer = () => {
   return (
-    <footer className='w-full h-24 flex justify-center items-center'>
+    <footer className='w-full h-24 flex justify-center items-center border absolute bottom-0'>
       <div className='contaiener'>
-        <p className=''>Dir repo</p>
+        <a href='https://github.com/OmarCardoze/Dir-repo'>
+          <img
+            alt='GitHub Repo stars'
+            src='https://img.shields.io/github/stars/OmarCardoze/Dir-repo?style=social'
+          />
+        </a>
       </div>
     </footer>
   )
