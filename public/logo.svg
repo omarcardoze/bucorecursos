@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="486" height="518" viewBox="0 0 486 518">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-width: 1px;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #e6e6e8;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 58.333px;
+        fill: #e7e7e7;
+        font-family: "Franklin Gothic Heavy";
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="244.5" y1="466" x2="244.5" y2="47" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f28e26" stop-opacity="0.996"/>
+      <stop offset="1" stop-color="#fd644f"/>
+    </linearGradient>
+  </defs>
+  <circle class="cls-1" cx="244.5" cy="256.5" r="209.5"/>
+  <path id="BR" class="cls-2" d="M191.427,313.111q25.524,0,33.324-9.968a35.771,35.771,0,0,0,7.8-22.647q0-21.186-22.105-26.526,9.51-2.584,14.306-9.467a26.3,26.3,0,0,0,4.8-15.39,30.026,30.026,0,0,0-8.258-20.771q-8.257-9.09-26.276-9.092H137.207V313.111h54.22Zm-22.022-89.42H185q11.677,0,11.678,9.509a10.284,10.284,0,0,1-2.5,6.59q-2.5,3.087-8.591,3.086H169.405V223.691Zm0,43.375h15.849q7.674,0,10.552,3.3a10.746,10.746,0,0,1,2.878,7.215,10,10,0,0,1-2.961,7.049q-2.963,3.127-9.3,3.128H169.405V267.066Zm189.071-3.587q12.179-5.755,16.183-13.3a36.567,36.567,0,0,0,4-17.392q0-15.1-10.886-24.316t-30.571-9.217H277.731V313.111h34.951V269.569H323.7l16.631,43.542H379.08ZM312.682,223.44h16.1q13.428,0,13.429,10.928a9.19,9.19,0,0,1-4,8.091q-4,2.752-10.594,2.753H312.682V223.44Z"/>
+  <text id="_" data-name="++" class="cls-3" x="205.75" y="374">++</text>
+</svg>
