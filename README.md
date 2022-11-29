@@ -37,7 +37,7 @@ Agregue el recurso aquí siguiendo la estructura: [`/data/resources.ts`](https:/
 
 Puedes agregar recursos con las siguientes categorías escritas en inglés: books, icons, images, software, libraries, extensions and courses.
 
-```json
+```bash
   {
     id: 1,
     title: 'example',
