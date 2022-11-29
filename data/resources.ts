@@ -6,7 +6,7 @@ export const RESOURCES: Resources[] = [
     title: 'unDraw',
     description: 'Ilustraciones que puedes descargar en svg y png.',
     url: 'https://undraw.co/illustrations',
-    tags: ['svg', 'ilustrations', 'image'],
+    categories: ['image'],
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ export const RESOURCES: Resources[] = [
     description:
       'Generador de ondas personalizados que puede descargar en svg o copiar el código.',
     url: 'https://getwaves.io/',
-    tags: ['svg'],
+    categories: ['image'],
   },
   {
     id: 3,
@@ -22,14 +22,14 @@ export const RESOURCES: Resources[] = [
     description:
       'Navega por cientos de íconos que puedes descargar o copiar el código.',
     url: 'https://fontawesomeicons.com/svg/icons',
-    tags: ['svg', 'icons'],
+    categories: ['icons'],
   },
   {
     id: 4,
     title: 'vertex',
     description: 'Encuentra íconos en 3d y totalmente personalizados.',
     url: 'https://vertex.im/',
-    tags: ['icons', '3d'],
+    categories: ['icons'],
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const RESOURCES: Resources[] = [
     description:
       'Genera gráficas a través de una url donde puedes personalizar colores, tamaño entre otros parámetros.',
     url: 'https://documentation.image-charts.com/',
-    tags: ['image', 'chart'],
+    categories: ['image'],
   },
   {
     id: 6,
@@ -45,13 +45,13 @@ export const RESOURCES: Resources[] = [
     description:
       'Aplicación de escritorio para visualizar los proyectos en multiples pantallas.',
     url: 'https://responsively.app/',
-    tags: ['responsive'],
+    categories: ['software'],
   },
   {
     id: 7,
     title: 'unavatar',
     description: 'Genera avatares de diferentes redes sociales a través de una url.',
     url: 'https://unavatar.io/',
-    tags: ['image'],
+    categories: ['image'], // books, icons, images, software, libraries, extensions and courses.
   },
 ]
