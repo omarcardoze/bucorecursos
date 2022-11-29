@@ -52,6 +52,6 @@ export const RESOURCES: Resources[] = [
     title: 'unavatar',
     description: 'Genera avatares de diferentes redes sociales a través de una url.',
     url: 'https://unavatar.io/',
-    categories: ['image'], // books, icons, images, software, libraries, extensions and courses.
+    categories: ['image'],
   },
 ]

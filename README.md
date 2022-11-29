@@ -43,7 +43,7 @@ Puedes agregar recursos con las siguientes categorías escritas en inglés: book
     title: 'example',
     description: 'example',
     url: 'https://example.com/',
-    categories: ['example'], // books, icons, images, software, libraries, extensions and courses.
+    categories: ['example'],
   },
 ```
 
