@@ -54,4 +54,13 @@ export const RESOURCES: Resources[] = [
     url: 'https://unavatar.io/',
     categories: ['image'],
   },
+
+  {
+    id: 8,
+    title: 'freecodecamp',
+    description: 'plataforma gratuita para aprender diferentes lenguajes y tecnologias.',
+    url: 'https://www.freecodecamp.org/',
+    categories: ['courses'],
+  },
+  
 ]
