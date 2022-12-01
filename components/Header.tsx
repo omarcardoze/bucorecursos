@@ -7,11 +7,11 @@ interface Props {
 export const Header = ({ title }: Props) => {
   return (
     <>
-      <header className='w-full h-[30rem] bg-gradient-to-r from-violet-800 to-blue-500 flex items-center justify-center flex-col relative'>
+      <header className='container w-full h-[20rem] flex items-center justify-center flex-col relative'>
         <Navbar />
-        <div className='container'>
-          <h1 className='text-white text-3xl font-medium text-center'>{title}</h1>
-        </div>
+        <h1 className='text-center py-5 leading-tight tracking-tight text-4xl'>
+          {title}
+        </h1>
       </header>
     </>
   )

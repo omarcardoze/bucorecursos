@@ -1,5 +1,8 @@
+<a href="https://bucorecursos.vercel.app/">
+  <img src="public/banner-bucorecursos.png">
+</a>
+
 <div align="center">
-	<h1>Bucorecursos</h1>
 	<p>🚀 Lista de recursos gratuitos para desarrolladores web</p>
 
 ![GitHub stars](https://img.shields.io/github/stars/OmarCardoze/bucorecursos)
@@ -7,7 +10,6 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr-closed-raw/OmarCardoze/bucorecursos)
 
 </div>
-
 
 ## 🚀 ¿Cómo participar?
 
@@ -60,5 +62,3 @@ yarn dev
 ## 🔑 License:
 
 - [MIT](https://github.com/OmarCardoze/bucorecursos/blob/main/LICENSE).
-
-Hola gracias por  darme la oportunidad de hacer el primer Fork en github.👍😊
