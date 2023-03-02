@@ -21,12 +21,14 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 
 const ResourcesPage = ({ resources }: Props) => {
   return (
-    <div className='container mx-auto flex flex-col items-center bg-white'>
-      <HeadPage />
+    <>
       <Header title='Recopilación de recursos gratuitos' />
-      <ResourcesList resources={resources} />
-      <Footer />
-    </div>
+      <div className='container mx-auto flex flex-col items-center bg-white'>
+        <HeadPage />
+        <ResourcesList resources={resources} />
+        <Footer />
+      </div>
+    </>
   )
 }
 
