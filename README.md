@@ -61,4 +61,4 @@ yarn dev
 
 ## 🔑 License:
 
-- [MIT](https://github.com/OmarCardoze/bucorecursos/blob/main/LICENSE).
+- [MIT](https://github.com/OmarCardoze/bucorecursos/blob/main/LICENSE)
