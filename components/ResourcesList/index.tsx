@@ -12,7 +12,7 @@ export default function ResourcesList({ resources }: Props) {
   const limit = useLimit(targetRef)
 
   return (
-    <section className='container grid grid-cols-400 flex-1 my-20 text-slate-50'>
+    <section className='container grid gap-5 grid-cols-400 flex-1 my-20 text-slate-50'>
       {resources.slice(0, limit).map((r) => (
         <ResourcesItem resource={r} key={r.id} />
       ))}
