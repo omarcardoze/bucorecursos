@@ -1,4 +1,5 @@
 import { Resources } from '../../types'
+import Link from 'next/link'
 
 interface IResourcestemProps {
   resource: Resources
@@ -8,16 +9,18 @@ export default function ResourcesItem({
   resource: { url, title, description },
 }: IResourcestemProps) {
   return (
-    <article className='flex flex-col p-3'>
-      <a
-        href={url}
-        className='h-44 block  p-6 bg-white border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'
-      >
-        <h5 className='mb-2 text-2xl tracking-tight text-gray-900 dark:text-white uppercase'>
+    <Link
+      className='relative border h-full p-6 transition-all rounded-lg hover:scale-105 hover:bg-yellow-50 shadow-box'
+      rel='noreferrer'
+      target='_blank'
+      href={url}
+    >
+      <article className='flex flex-col justify-center gap-y-4'>
+        <h2 className='text-xl text-black uppercase font-bold md:text-2xl'>
           {title}
-        </h5>
-        <p className='font-normal text-gray-700 dark:text-gray-400'>{description}</p>
-      </a>
-    </article>
+        </h2>
+        <p className='text-black'>{description}</p>
+      </article>
+    </Link>
   )
 }
