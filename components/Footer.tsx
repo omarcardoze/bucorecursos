@@ -1,17 +1,12 @@
-import Image from 'next/image'
+import Link from 'next/link'
 
 export const Footer = () => {
   return (
     <footer className='w-full h-24 flex justify-center items-center'>
       <div className='contaiener'>
-        <a href='https://github.com/OmarCardoze/Dir-repo'>
-          <Image
-            alt='GitHub Repo stars'
-            src='https://img.shields.io/github/stars/OmarCardoze/Dir-repo?style=social'
-            width={82}
-            height={20}
-          />
-        </a>
+        <Link href='https://github.com/OmarCardoze/Dir-repo'>
+          Haz tu contribución 🚀
+        </Link>
       </div>
     </footer>
   )
