@@ -20,17 +20,10 @@
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module",
-    "project": [
-      "./tsconfig.json"
-    ]
+    "project": ["./tsconfig.json"]
   },
-  "plugins": [
-    "prettier",
-    "react",
-    "import",
-    "react-hooks",
-    "jsx-a11y"
-  ],
+  "plugins": ["prettier", "react", "import", "react-hooks", "jsx-a11y"],
+
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/strict-boolean-expressions": "off",
@@ -39,6 +32,7 @@
     "no-unused-vars": "warn",
     "no-undef": "error",
     "@typescript-eslint/space-before-function-paren": "off",
+    "@typescript-eslint/comma-dangle": "off",
     "no-use-before-define": "warn",
     "react-hooks/rules-of-hooks": "warn",
     "react-hooks/exhaustive-deps": "warn",
