@@ -16,6 +16,7 @@
 Bucorecursos es una plataforma web que recopila recursos gratuitos en distintas categorías, como libros, iconos, imágenes, software, librerías, extensiones y cursos. Este proyecto es open source, por lo que cualquier persona puede contribuir y agregar nuevos recursos a la plataforma.
 
 ## 🚀 ¿Cómo participar?
+
 Si quieres agregar un nuevo recurso a la plataforma, sigue estos pasos:
 
 1. **Crea un fork de este repositorio**:
@@ -65,11 +66,10 @@ yarn dev
 ```
 
 7. **Haz commit**
-Haz un commit con tus cambios y súbelos a tu fork con el comando git push.
+   Haz un commit con tus cambios y súbelos a tu fork con el comando git push.
 
 8. **Crea un Pull Request**
-Crea un pull request en este repositorio para que revisemos tus cambios y los integremos a la plataforma.
-
+   Crea un pull request en este repositorio para que revisemos tus cambios y los integremos a la plataforma.
 
 ## Cómo reportar un error o proponer una mejora
 
@@ -78,6 +78,3 @@ Si encuentras un error o tienes una idea para mejorar la plataforma, por favor c
 ## 🔑 License:
 
 - [MIT](https://github.com/OmarCardoze/bucorecursos/blob/main/LICENSE)
-
-
-

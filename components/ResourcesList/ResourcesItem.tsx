@@ -1,4 +1,5 @@
-import { Resources } from '../../types'
+// eslint-disable-next-line @typescript-eslint/key-spacing
+import { type Resources } from '../../types'
 import Link from 'next/link'
 
 interface IResourcestemProps {

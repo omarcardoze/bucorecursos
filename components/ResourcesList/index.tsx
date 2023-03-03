@@ -1,6 +1,7 @@
+// eslint-disable-next-line @typescript-eslint/key-spacing
 import { useRef } from 'react'
 import useLimit from '../../hooks/useLimit'
-import { Resources } from '../../types'
+import { type Resources } from '../../types'
 import ResourcesItem from './ResourcesItem'
 
 interface Props {
