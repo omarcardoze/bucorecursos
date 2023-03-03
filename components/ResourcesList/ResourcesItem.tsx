@@ -20,7 +20,7 @@ export default function ResourcesItem({
         <h2 className='text-xl text-black uppercase font-bold md:text-2xl'>
           {title}
         </h2>
-        <p className='text-black'>{description}</p>
+        <p className='text-black text-lg'>{description}</p>
       </article>
     </Link>
   )
