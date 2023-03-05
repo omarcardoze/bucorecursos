@@ -1,6 +1,6 @@
-import api from '../api'
+import api from '../../api'
 import type { GetStaticProps } from 'next'
-import { type Resources } from '../types'
+import { type Resources } from '../../types'
 import { Header } from '../components/Header'
 import ResourcesList from '../components/ResourcesList'
 import { Footer } from '../components/Footer'
