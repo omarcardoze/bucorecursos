@@ -193,4 +193,11 @@ export const RESOURCES: Resources[] = [
     url: 'https://colorpalettes.earth/',
     categories: ['css', 'color'],
   },
+  {
+    id: 26,
+    title: 'HyperUI',
+    description: 'Componentes con Tailwind CSS gratuitos de código abierto.',
+    url: 'https://www.hyperui.dev/',
+    categories: ['css', 'library'],
+  },
 ]
