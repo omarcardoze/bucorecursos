@@ -7,25 +7,26 @@ import { Footer } from '../components/Footer'
 import HeadPage from '../components/HeadPage'
 
 interface Props {
-  resources: Resources[]
+  randomResourses: Resources[]
 }
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
   const resources = await api.resources.list()
+  const randomResourses = resources.sort(() => Math.random() - 0.5)
   return {
     props: {
-      resources,
+      randomResourses,
     },
   }
 }
 
-const ResourcesPage = ({ resources }: Props) => {
+const ResourcesPage = ({ randomResourses }: Props) => {
   return (
     <>
       <Header title='Recopilación de recursos gratuitos' />
       <div className='container mx-auto flex flex-col items-center bg-white'>
         <HeadPage />
-        <ResourcesList resources={resources} />
+        <ResourcesList resources={randomResourses} />
         <Footer />
       </div>
     </>
