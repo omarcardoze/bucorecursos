@@ -1,3 +1,4 @@
+'use client'
 import api from '../../api'
 import type { GetStaticProps } from 'next'
 import { type Resources } from '../../types'
